@@ -9,6 +9,7 @@ public class TypeCasting {
         System.out.println(b);
 
         float f1 = 3.141599247f;
+        float f2 = 1.234567890f;
         double d1 = f1;
 
         double d2 = 6.97946124125;
