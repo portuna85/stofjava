@@ -10,10 +10,11 @@ public class ArrayMax_Min {
         // max[0] = 90  >  max[1] = 97 이면 min에 저장 max < scores[i] { max = scores[i] } else { min = scores[i]
         // max[1] = 97  >  max[2] = 88 이면 max에 저장
         for (int i = 0; i < scores.length; i++) {
-            if(max < scores[i])
+            if (max < scores[i]) {
                 max = scores[i];
-            else if(min > scores[i])
+            } else if(min > scores[i]) {
                 min = scores[i];
+            }
         }
 
         System.out.println("배열의 최대 값 : " + max);

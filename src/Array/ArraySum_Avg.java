@@ -10,9 +10,8 @@ public class ArraySum_Avg {
         for (int i = 0; i < scores.length; i++) {
             sum += scores[i];
         }
-        avg = (float) sum / scores.length;
+        avg = (float) sum/scores.length;
+        System.out.println("총점 : " + sum + " 평균 : " + avg);
 
-        System.out.println("총점 : " + sum);
-        System.out.println("평균 : " + avg);
     }
 }

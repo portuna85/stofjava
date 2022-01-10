@@ -7,11 +7,11 @@ public class ArrayMultiDime {
                 {7, 8, 9, 10}};
         int sum = 0;
 
-        /*for (int i = 0; i < scores.length; i++) {
-            for (int j = 0; j < scores[i].length; j++) {
-                scores[i][j] = 10;
-            }
-        }*/
+        System.out.println(scores[0][0]);
+
+        for (int i = 0; i < scores.length; i++) {
+            System.out.println(scores[i][i]);
+        }
 
         for (int i = 0; i < scores.length; i++) {
             for (int j = 0; j < scores[i].length; j++) {
