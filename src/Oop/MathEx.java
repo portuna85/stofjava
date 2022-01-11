@@ -9,8 +9,8 @@ public class MathEx {
 
         MyMath myMath = new MyMath();
 
-        System.out.println(myMath.add(24,124));
-        System.out.println(num1);
+//        System.out.println(myMath.add(24,124));
+//        System.out.println(num1);
 
     }
 }
