@@ -1,16 +1,13 @@
 package Oop;
 
 public class MathEx {
-
     public static void main(String[] args) {
+        MethodOverloding meth = new MethodOverloding();
 
-        long num1 = MyMath.staticAdd(3, 5);
+        int result = meth.add(3,6,8);
+        System.out.println(result);
 
-
-        MyMath myMath = new MyMath();
-
-//        System.out.println(myMath.add(24,124));
-//        System.out.println(num1);
-
+        float result1 = meth.average(result, 12);
+        System.out.println(result1);
     }
 }
