@@ -5,8 +5,9 @@ public class Parent {
     public final int MAX_NUM = 100;
 
     public Parent(String a) {
-
     }
+
+
 
     public void parentMethod() {
 

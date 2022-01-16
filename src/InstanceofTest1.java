@@ -1,0 +1,2 @@
+public class InstanceofTest1 {
+}
