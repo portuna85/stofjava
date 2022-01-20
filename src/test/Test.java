@@ -2,29 +2,18 @@ package test;
 
 public class Test {
     public static void main(String[] args) {
-        Child c = new Child();
-        Parent p = new Parent();
-    }
-}
+        int num1 = (int) (Math.random() * 100);
+        int num2 = (int) (Math.random() * 100);
+        int tmp;
 
-class Parent {
-    public String parentName;
-    public int parentAge;
-    public void run(){
-        System.out.println(parentName);
-        System.out.println(parentAge);
-    }
-}
 
-class Child {
-    Parent p = new Parent() {
-        public String childName;
-        public int childAge;
+        System.out.printf("%d\t%d\n", num1, num2);
 
-        @Override
-        public void run() {
-            System.out.println(childName);
-            System.out.println(childAge);
+        if(num2 < num1) {
+            tmp = num1;
+            num1 = num2;
+            num2 = tmp;
+            System.out.printf("%d\t%d", num1, num2);
         }
-    };
+    }
 }
