@@ -1,21 +1,17 @@
 package test;
 
-import java.util.ArrayList;
-import java.util.Collections;
-
 public class Lotto {
     public static void main(String[] args) {
-        ArrayList lotto = new ArrayList();
-        int num;
+        String str = "ABC123";
+        System.out.println("Lotto : " + str);
+        Car.change(str);
+        System.out.println("Lotto : " + str);
+    }
+}
 
-        for (int i = 0; i < 6; i++) {
-            num = (int)(Math.random() * 45 + 1);
-            lotto.add(num);
-        }
-
-
-        Collections.sort(lotto);
-        System.out.println(lotto);
-
+class Car {
+    public static void change(String str) {
+        str = "456";
+        System.out.println("Car : " + str);
     }
 }

@@ -1,20 +1,28 @@
 package test;
 
-import java.util.*;
-
 public class Test {
-    public static void main(String[] args) {
-        Set set = new HashSet();
+    public static void main(String args[]) {
+        SutdaCard card1 = new SutdaCard(3, false);      // 3
+        SutdaCard card2 = new SutdaCard();                   // 1K
+        System.out.println(card1.info());
+        System.out.println(card2.info());
+    }
+}
 
-        for (int i = 0; i < 6; i++) {
-            int num = (int) (Math.random() * 45) + 1;
-            /*set.add(new Integer(num));*/
-            set.add(num);
-        }
-        System.out.println(set);
+class SutdaCard {
+    private int num;
+    private boolean isKwang;
 
-        List list = new LinkedList(set);
-        Collections.sort(list);
-        System.out.println(list);
+    public SutdaCard() {
+        this(1, true);
+    }
+
+    public SutdaCard(int num, boolean isKwang) {
+        this.num = num;
+        this.isKwang = isKwang;
+    }
+
+    public String info() {
+        return num+(isKwang?"K":"");
     }
 }
