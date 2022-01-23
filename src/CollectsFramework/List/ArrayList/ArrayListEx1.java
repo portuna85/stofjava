@@ -2,10 +2,12 @@ package CollectsFramework.List.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Vector;
 
 public class ArrayListEx1 {
     public static void main(String[] args) {
         ArrayList arrayList = new ArrayList();
+        new Vector();
         Car car = new Car();
         arrayList.add(new String("JKL "));
         arrayList.add(new String("ABC "));
