@@ -1,7 +1,6 @@
 package CollectsFramework.List.ArrayList;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Vector;
 
 public class ArrayListEx1 {
