@@ -34,11 +34,12 @@ public class HashSetEx5 {
         }
 
         it = setA.iterator();
-        while(it.hasNext()) {
+        while (it.hasNext()) {
             Object tmp = it.next();
             if (!setB.contains(tmp)) {
                 setCha.add(tmp);
             }
         }
+        System.out.println("HahsSet : " + setHab);
     }
 }
