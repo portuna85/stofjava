@@ -1,4 +1,4 @@
-package Lamda_Steam.Predicate;
+package Lamda_Stream.LambdaPack.Predicate;
 
 import java.util.function.Function;
 import java.util.function.Predicate;

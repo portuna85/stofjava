@@ -1,6 +1,4 @@
-package Lamda_Steam.test;
-
-import java.util.Arrays;
+package Lamda_Stream.test;
 
 public class Lambda {
     static Lotto lotto1 = new Lotto() {

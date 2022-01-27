@@ -1,4 +1,4 @@
-package Lamda_Steam.test;
+package Lamda_Stream.test;
 
 public class MyFunctionalInterfaceEx {
     public static void main(String[] args) {

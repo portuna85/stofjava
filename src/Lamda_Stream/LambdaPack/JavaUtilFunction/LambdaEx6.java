@@ -1,7 +1,6 @@
-package Lamda_Steam.JavaUtilFunction;
+package Lamda_Stream.LambdaPack.JavaUtilFunction;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.function.*;
 
 public class LambdaEx6 {
@@ -30,11 +29,22 @@ public class LambdaEx6 {
         return newArr;
     }
 
+    static Integer method(String s) {
+        return Integer.parseInt(s);
+    }
+
     public static void main(String[] args) {
         IntSupplier s = () -> (int) (Math.random() * 45) + 1;
         IntConsumer c = i -> System.out.print(i + ", ");
         IntPredicate p = i -> i % 2 == 0;
         IntUnaryOperator u = i -> i / 10 * 10;
+
+        Function<String, Integer> f = Integer::parseInt;
+
+        System.out.println(f.apply("11"));
+
+        Supplier<LambdaEx6> s2 = LambdaEx6::new;
+
 
         int[] arr = new int[10];
 

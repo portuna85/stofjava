@@ -1,4 +1,4 @@
-package Lamda_Steam.JavaUtilFunction;
+package Lamda_Stream.LambdaPack.JavaUtilFunction;
 
 import java.util.ArrayList;
 import java.util.List;

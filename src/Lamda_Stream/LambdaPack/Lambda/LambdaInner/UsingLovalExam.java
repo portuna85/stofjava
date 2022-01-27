@@ -1,4 +1,4 @@
-package Lamda_Steam.Lambda.LambdaInner;
+package Lamda_Stream.LambdaPack.Lambda.LambdaInner;
 
 public class UsingLovalExam {
     public static void main(String[] args) {

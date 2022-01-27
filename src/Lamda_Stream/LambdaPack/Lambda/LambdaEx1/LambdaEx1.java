@@ -1,4 +1,4 @@
-package Lamda_Steam.Lambda.LambdaEx1;
+package Lamda_Stream.LambdaPack.Lambda.LambdaEx1;
 
 @FunctionalInterface
 interface MyFunction {

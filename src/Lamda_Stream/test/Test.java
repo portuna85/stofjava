@@ -1,4 +1,4 @@
-package Lamda_Steam.test;
+package Lamda_Stream.test;
 
 import java.util.function.Function;
 

@@ -1,6 +1,6 @@
-package Lamda_Steam.Lambda.LambdaInner;
+package Lamda_Stream.LambdaPack.Lambda.LambdaInner;
 
-import Lamda_Steam.test.MyFunctionalInterface;
+import Lamda_Stream.test.MyFunctionalInterface;
 
 public class UsingThis {
     private int outterField = 10;

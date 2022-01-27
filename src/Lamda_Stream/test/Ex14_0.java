@@ -1,4 +1,4 @@
-package Lamda_Steam.test;
+package Lamda_Stream.test;
 
 public class Ex14_0 {
     public static void main(String[] args) {

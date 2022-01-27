@@ -1,4 +1,4 @@
-package Lamda_Steam.Lambda.LambdaEx2;
+package Lamda_Stream.LambdaPack.Lambda.LambdaEx2;
 
 @FunctionalInterface
 interface MyFunction {
@@ -12,6 +12,7 @@ public class LambdaEx2 {
             @Override
             public void myMethod() {}
         };
+
 
         Object obj = (MyFunction) (() -> {});
         Object obj1 = (MyFunction) (new MyFunction() {

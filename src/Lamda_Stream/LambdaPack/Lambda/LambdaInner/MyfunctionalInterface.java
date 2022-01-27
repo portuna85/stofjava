@@ -1,4 +1,4 @@
-package Lamda_Steam.Lambda.LambdaInner;
+package Lamda_Stream.LambdaPack.Lambda.LambdaInner;
 
 @FunctionalInterface
 public interface MyfunctionalInterface {
