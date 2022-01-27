@@ -1,6 +1,7 @@
 package Lamda_Steam.JavaUtilFunction;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.function.*;
 
 public class LambdaEx6 {
@@ -40,6 +41,7 @@ public class LambdaEx6 {
         makeRandomList(s, arr);
         System.out.println(Arrays.toString(arr));
         printEvenNum(p, c, arr);
+
         int[] newArr = doSomething(u, arr);
         System.out.println(Arrays.toString(newArr));
     }

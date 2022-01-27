@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 
 public class LambdaEx5 {
     static <T> List<T> doSomething(Function<T, T> f, List<T> list) {
-        List<T> tList = new ArrayList<>(list.size());
+        List<T> tList = new ArrayList<T>(list.size());
         for (T t : list) {
             tList.add(f.apply(t));
         }
@@ -42,6 +42,7 @@ public class LambdaEx5 {
         makeRandomList(s, list);
         System.out.println(list);
         printEvenNum(p, c, list);
+
         List<Integer> list1 = doSomething(f, list);
         System.out.println(list1);
     }
