@@ -1,4 +1,4 @@
-package Lamda_Stream.test;
+package Lamda_Stream.LambdaPack.Lambda;
 
 public class Ex14_0 {
     public static void main(String[] args) {

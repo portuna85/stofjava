@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.function.*;
 
 public class LambdaEx6 {
+
+    public LambdaEx6() {}
+
     static void makeRandomList(IntSupplier s, int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = s.getAsInt();
@@ -44,7 +47,6 @@ public class LambdaEx6 {
         System.out.println(f.apply("11"));
 
         Supplier<LambdaEx6> s2 = LambdaEx6::new;
-
 
         int[] arr = new int[10];
 

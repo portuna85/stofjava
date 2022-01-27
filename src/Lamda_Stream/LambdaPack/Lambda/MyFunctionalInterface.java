@@ -1,4 +1,4 @@
-package Lamda_Stream.test;
+package Lamda_Stream.LambdaPack.Lambda;
 
 @FunctionalInterface
 public interface MyFunctionalInterface {

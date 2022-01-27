@@ -1,7 +1,7 @@
 package Lamda_Stream.Streampack.StreamExample;
 
-import java.util.Comparator;
-import java.util.stream.Stream;
+import java.util.*;
+import java.util.stream.*;
 
 public class StreamEx1 {
     public static void main(String[] args) {
@@ -13,5 +13,7 @@ public class StreamEx1 {
         );
 
         studentStream.sorted(Comparator.comparing(Student::getBan));
+
+
     }
 }

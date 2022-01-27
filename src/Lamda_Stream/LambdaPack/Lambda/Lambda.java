@@ -1,4 +1,4 @@
-package Lamda_Stream.test;
+package Lamda_Stream.LambdaPack.Lambda;
 
 public class Lambda {
     static Lotto lotto1 = new Lotto() {
