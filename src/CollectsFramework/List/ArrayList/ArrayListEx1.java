@@ -27,12 +27,5 @@ public class ArrayListEx1 {
 
         System.out.println(car.getName());
 
-        /*
-        String[] str = new String[10];
-        for (int i = 0; i < str.length; i++) {
-            str[i] = car.setName(car.getName() + " " + i);
-            System.out.println(str[i]);
-        }
-        */
     }
 }

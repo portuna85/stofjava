@@ -16,11 +16,7 @@ public class Student implements Comparable<Student> {
 
     @Override
     public String toString() {
-        return "Student{ " +
-                "name='" + name + '\'' +
-                ", ban=" + ban +
-                ", totalScore=" + totalScore +
-                " }";
+        return String.format("[%s, %d, %d]", this.name, this.ban, this.totalScore);
     }
 
     public String getName() {
@@ -35,16 +31,8 @@ public class Student implements Comparable<Student> {
         return ban;
     }
 
-    public void setBan(int ban) {
-        this.ban = ban;
-    }
-
     public int getTotalScore() {
         return totalScore;
-    }
-
-    public void setTotalScore(int totalScore) {
-        this.totalScore = totalScore;
     }
 
     @Override
