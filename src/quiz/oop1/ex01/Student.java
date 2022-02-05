@@ -14,6 +14,6 @@ public class Student {
     }
 
     public String info() {
-        return num + (isKwang?"K":"");
+        return num + (isKwang ? "K" : "");
     }
 }

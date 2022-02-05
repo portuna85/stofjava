@@ -2,7 +2,6 @@ package Lamda_Stream.Streampack.OptionalLambda;
 
 import java.util.*;
 import java.util.stream.*;
-
 import static java.util.stream.Collectors.*;
 
 public class StreamEx6 {
@@ -53,38 +52,5 @@ public class StreamEx6 {
         String stuNames = Stream.of(stuArr).map(Student::getName)
                                 .collect(joining(",", "{", "}"));
         System.out.println(stuNames);
-    }
-}
-
-class Student implements Comparable<Student> {
-    String name;
-    int ban;
-    int totalScore;
-
-    public Student(String name, int ban, int totalScore) {
-        this.name = name;
-        this.ban = ban;
-        this.totalScore = totalScore;
-    }
-
-    public String toString() {
-        return String.format("[%s, %d, %d]", this.name, this.ban, this.totalScore).toString();
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getBan() {
-        return ban;
-    }
-
-    public int getTotalScore() {
-        return totalScore;
-    }
-
-    @Override
-    public int compareTo(Student o) {
-        return o.totalScore - this.totalScore;
     }
 }
