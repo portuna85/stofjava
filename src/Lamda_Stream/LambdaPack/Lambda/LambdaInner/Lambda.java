@@ -1,4 +1,4 @@
-package Lamda_Stream.LambdaPack.Lambda;
+package Lamda_Stream.LambdaPack.Lambda.LambdaInner;
 
 public class Lambda {
     static Lotto lotto1 = new Lotto() {

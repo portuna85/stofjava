@@ -1,4 +1,4 @@
-package Lamda_Stream.LambdaPack.Lambda;
+package Lamda_Stream.LambdaPack.Lambda.LambdaInner;
 
 public class Ex14_0 {
     public static void main(String[] args) {
