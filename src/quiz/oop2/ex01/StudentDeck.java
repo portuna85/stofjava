@@ -5,9 +5,13 @@ class SutdaDeck {
     SutdaCard[] cards = new SutdaCard[CARD_NUM];
 
     SutdaDeck() {
-		/*
-		(1) 배열 SutdaCard를 적절히 초기화 하시오.
-	     */
+        for (int i = 0; i < CARD_NUM; i++) {
+            if (i == 0 || i == 2 || i == 7) {
+                cards[i] = new SutdaCard(i + 1, true);
+            } else {
+                cards[i] = new SutdaCard(i % 10 + 1, false);
+            }
+        }
 
         class SutdaCard {
             int num;

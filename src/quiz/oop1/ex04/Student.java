@@ -1,4 +1,4 @@
-package quiz.oop1.ex02;
+package quiz.oop1.ex04;
 
 public class Student {
     private String name;

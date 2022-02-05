@@ -1,4 +1,4 @@
-package quiz.oop1.ex04;
+package quiz.oop1.ex06;
 
 public class Excercise6_6 {
     public static void main(String[] args) {
